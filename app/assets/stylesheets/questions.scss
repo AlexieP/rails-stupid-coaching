@@ -1,0 +1,92 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  background: white; // Using this variable
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 100px;
+  margin: 100px;
+  border-radius: 25px;
+  // box-shadow: 0px 0px 15px rgb(84, 84, 84);
+
+  h1 {
+    padding-bottom: 50px;
+  }
+
+  .return {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    :hover {
+      border: 3px solid black;
+    }
+  }
+
+  .return a {
+    text-decoration: none;
+    padding: 5px;
+    // background-color: blue;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 20px 5px 20px;
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 300px;
+
+  .message {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+      font-weight: 100;
+    }
+    p {
+      font-weight: bolder;
+    }
+  }
+
+
+  .coach {
+    background-color: #fffbc3;
+    border-left: 5px solid lightgray;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .you {
+    border-left: 5px solid lightgray;
+    padding-left: 25px;
+  }
+}
+
+.form-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .button {
+  }
+  input {
+  }
+}
+
+.answer {
+
+}
+
+.button {
+  background-color: red;
+}
